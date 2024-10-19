@@ -1,0 +1,33 @@
+.container{
+    height: 10px;
+   border-bottom: 1px solid lightgray;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(78, 78, 252);
+}
+.nav{
+    display: flex;
+   gap: 40px;
+   align-items: center;
+   font-weight: 500;
+
+   button{
+    background-color: rgb(78, 78, 252);
+    border: none;
+    height: 40px;
+    width: 77px;
+    border-radius:8px ;
+    color: white;
+    font-weight: bold;
+   }
+}
+.red{
+    color: red;
+    border-right: 1px solid lightgray;
+}

@@ -1,0 +1,19 @@
+.comp{
+    margin-top: 100px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px,1fr));
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 80px;
+    
+}
+.me{
+    margin-top:70px;
+    display: flex;
+    gap: 60px;
+    margin-left: 1000px;
+
+}

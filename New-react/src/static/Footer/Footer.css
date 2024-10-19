@@ -1,0 +1,23 @@
+.bottom{
+    padding:25px;
+   height: 450px;
+   background-color: rgb(249, 249, 249);
+   border-bottom: 1px solid lightgray;
+   display: flex;
+   justify-content: space-between;
+}
+.bott{
+    height: 100px;
+    background-color: rgb(249, 249, 249);
+}
+.tools{
+    display: flex;
+    flex-direction: column ;
+}
+a{
+    font-size: 1.1rem;
+    line-height: 40px;
+}
+a:hover{
+    color: blue;
+}
